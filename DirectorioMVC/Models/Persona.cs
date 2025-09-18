@@ -2,109 +2,67 @@
 {
     public class Persona
     {
-        private string numeroID, nombres, apellidos, telefono, celular, pais, ciudad, direccion, profesion;
-        private DateTime fechaNacimiento;
+        private string numeroId { get; set; }
+        private string nombres { get; set; }
+        private string apellidos { get; set; }
+        private DateTime fechaNacimiento { get; set; }
+        private string telefono { get; set; }
+        private string celular { get; set; }
+        private string email { get; set; }
+        private string ciudad { get; set; }
+        private string direccion { get; set; }
+        private string profesion { get; set; }
 
-        private List<Grado> grados;
-        private List<Cargo> cargos;
-
-        // Gets y Sets
-        public string NumeroID
-        {
-            get { return numeroID; }
-            set { numeroID = value; }
-        }
-
-        public string Nombres
-        {
-            get { return nombres; }
-            set { nombres = value; }
-        }
-
-        public string Apellidos
-        {
-            get { return apellidos; }
-            set { apellidos = value; }
-        }
-
-        public string Telefono
-        {
-            get { return telefono; }
-            set { telefono = value; }
-        }
-
-        public string Celular
-        {
-            get { return celular; }
-            set { celular = value; }
-        }
-
-        public string Pais
-        {
-            get { return pais; }
-            set { pais = value; }
-        }
-
-        public string Ciudad
-        {
-            get { return ciudad; }
-            set { ciudad = value; }
-        }
-
-        public string Direccion
-        {
-            get { return direccion; }
-            set { direccion = value; }
-        }
-
-        public string Profesion
-        {
-            get { return profesion; }
-            set { profesion = value; }
-        }
-
-        public DateTime FechaNacimiento
-        {
-            get { return fechaNacimiento; }
-            set { fechaNacimiento = value; }
-        }
-
-        public List<Grado> Grados
-        {
-            get { return grados; }
-            set { grados = value; }
-        }
-
-        public List<Cargo> Cargos
-        {
-            get { return cargos; }
-            set { cargos = value; }
-        }
-
-        // Constructor vacío
         public Persona()
         {
-            grados = new List<Grado>();
-            cargos = new List<Cargo>();
+            
         }
 
-        // Constructor con parámetros
-        public Persona(string numeroID, string nombres, string apellidos, string telefono, string celular,
-                       string pais, string ciudad, string direccion, string profesion,
-                       DateTime fechaNacimiento, List<Grado> grados, List<Cargo> cargos)
+        public Persona (string numeroId, string nombres, string apellidos, DateTime fechaNacimiento, 
+                        string telefono, string celular, string email, string ciudad,
+                        string direccion, string profesion)
         {
-            this.numeroID = numeroID;
+            this.numeroId = numeroId;
             this.nombres = nombres;
             this.apellidos = apellidos;
+            this.fechaNacimiento = fechaNacimiento;
             this.telefono = telefono;
             this.celular = celular;
-            this.pais = pais;
+            this.email = email;
             this.ciudad = ciudad;
             this.direccion = direccion;
             this.profesion = profesion;
-            this.fechaNacimiento = fechaNacimiento;
-            this.grados = grados;
-            this.cargos = cargos;
+        }
+
+        public Persona(string p_nombres, string p_apellidos)
+        {
+            this.nombres = p_nombres;
+            this.apellidos = p_apellidos;
+        }
+
+        public void setNombres(string p_nombres)
+        {
+            this.nombres = p_nombres;
+        }
+
+        public string getNombres()
+        {
+            return this.nombres;
+        }
+
+        public void setApellidos(string p_apellidos)
+        {
+            this.apellidos = p_apellidos;
+        }
+
+        public string getApellidos()
+        {
+            return this.apellidos;
+        }
+
+        public string getNombreCompleto()
+        {
+            return this.nombres + " " + this.apellidos;
         }
     }
 }
