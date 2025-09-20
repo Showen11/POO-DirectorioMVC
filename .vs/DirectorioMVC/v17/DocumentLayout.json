@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\UMH\\poo2\\UMH-POO\\POO-DirectorioMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58AAB0B1-EFEA-4EBD-8030-77547D2F7B1B}|DirectorioMVC\\DirectorioMVC.csproj|d:\\umh\\poo2\\umh-poo\\poo-directoriomvc\\directoriomvc\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58AAB0B1-EFEA-4EBD-8030-77547D2F7B1B}|DirectorioMVC\\DirectorioMVC.csproj|solutionrelative:directoriomvc\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58AAB0B1-EFEA-4EBD-8030-77547D2F7B1B}|DirectorioMVC\\DirectorioMVC.csproj|d:\\umh\\poo2\\umh-poo\\poo-directoriomvc\\directoriomvc\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58AAB0B1-EFEA-4EBD-8030-77547D2F7B1B}|DirectorioMVC\\DirectorioMVC.csproj|solutionrelative:directoriomvc\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58AAB0B1-EFEA-4EBD-8030-77547D2F7B1B}|DirectorioMVC\\DirectorioMVC.csproj|d:\\umh\\poo2\\umh-poo\\poo-directoriomvc\\directoriomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58AAB0B1-EFEA-4EBD-8030-77547D2F7B1B}|DirectorioMVC\\DirectorioMVC.csproj|solutionrelative:directoriomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58AAB0B1-EFEA-4EBD-8030-77547D2F7B1B}|DirectorioMVC\\DirectorioMVC.csproj|d:\\umh\\poo2\\umh-poo\\poo-directoriomvc\\directoriomvc\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58AAB0B1-EFEA-4EBD-8030-77547D2F7B1B}|DirectorioMVC\\DirectorioMVC.csproj|solutionrelative:directoriomvc\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AAB0B1-EFEA-4EBD-8030-77547D2F7B1B}|DirectorioMVC\\DirectorioMVC.csproj|d:\\umh\\poo2\\umh-poo\\poo-directoriomvc\\directoriomvc\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AAB0B1-EFEA-4EBD-8030-77547D2F7B1B}|DirectorioMVC\\DirectorioMVC.csproj|solutionrelative:directoriomvc\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AAB0B1-EFEA-4EBD-8030-77547D2F7B1B}|DirectorioMVC\\DirectorioMVC.csproj|d:\\umh\\poo2\\umh-poo\\poo-directoriomvc\\directoriomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AAB0B1-EFEA-4EBD-8030-77547D2F7B1B}|DirectorioMVC\\DirectorioMVC.csproj|solutionrelative:directoriomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\UMH\\poo2\\UMH-POO\\POO-DirectorioMVC\\DirectorioMVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "DirectorioMVC\\Controllers\\HomeController.cs",
@@ -38,25 +38,24 @@
               "RelativeToolTip": "DirectorioMVC\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T05:41:41.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T05:41:41.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Persona.cs",
               "DocumentMoniker": "D:\\UMH\\poo2\\UMH-POO\\POO-DirectorioMVC\\DirectorioMVC\\Models\\Persona.cs",
               "RelativeDocumentMoniker": "DirectorioMVC\\Models\\Persona.cs",
               "ToolTip": "D:\\UMH\\poo2\\UMH-POO\\POO-DirectorioMVC\\DirectorioMVC\\Models\\Persona.cs",
               "RelativeToolTip": "DirectorioMVC\\Models\\Persona.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAADwvyQAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-12T03:29:31.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\UMH\\poo2\\UMH-POO\\POO-DirectorioMVC\\DirectorioMVC\\Views\\Persona\\Index.cshtml",
               "RelativeDocumentMoniker": "DirectorioMVC\\Views\\Persona\\Index.cshtml",
@@ -69,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PersonaController.cs",
               "DocumentMoniker": "D:\\UMH\\poo2\\UMH-POO\\POO-DirectorioMVC\\DirectorioMVC\\Controllers\\PersonaController.cs",
               "RelativeDocumentMoniker": "DirectorioMVC\\Controllers\\PersonaController.cs",
